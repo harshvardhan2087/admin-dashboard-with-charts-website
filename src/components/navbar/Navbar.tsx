@@ -9,7 +9,7 @@ const Navbar = () => {
 
       </div>
       <div className="icons">
-        <img src="search.svg" alt="" />
+        <img src="search.svg" alt="icon" />
         <img src="app.svg" alt="icon" />
         <img src="expand.svg" alt="icon" />
         <div className="notification">
@@ -18,7 +18,7 @@ const Navbar = () => {
         </div> 
         <div className="user">
           <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Sidharth_Malhotra_snapped_during_Indian_Police_Force_promotion.jpg/220px-Sidharth_Malhotra_snapped_during_Indian_Police_Force_promotion.jpg' alt='icon'/>
-          <span>James</span>
+          <span>Sidharth</span>
         </div>
         <img src="setting.svg" alt="icon" />
 

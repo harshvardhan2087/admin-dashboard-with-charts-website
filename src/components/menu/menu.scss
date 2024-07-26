@@ -7,6 +7,9 @@
         flex-direction: column;
         gap: 10px;
         padding-bottom: 20px;
+        @include sm{
+            display: none;
+        }
 
         .title {
             font-size: 12px;
@@ -14,9 +17,7 @@
             color: $soft-color;
             text-transform: uppercase;
 
-            @include lg{
-                display: none;
-            }
+           
         }
         .listItem {
             display: flex;
